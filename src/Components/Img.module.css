@@ -1,0 +1,64 @@
+/* @media all and (max-width: 1219px) {
+    .patternDesktop {
+        display: none;
+    }
+
+    .patternMobile {
+        position: absolute;
+        width: 220px;
+        left: 50%;
+        margin-top: 5px;
+        margin-left: -110px;
+    }
+
+    .womanDesktop {
+        display: none;
+    }
+
+    .womanMobile {
+        position: fixed;
+        width: 220px;
+        left: 50%;
+        margin-top: -99px;
+        margin-left: -110px;
+    }
+
+    .box {
+        display: none;
+    }
+} */
+
+@media all and (min-width: 1220px) {  
+    .patternDesktop {
+        position: absolute;
+        height: 1250px;
+        width: 1250px;
+        margin-top: -390px;
+        margin-left: -755px
+    }
+
+    .patternMobile {
+        display: none;
+    }
+
+    .womanDesktop {
+        position: absolute;
+        height: 480px;
+        width: 600px;
+        margin-top: 90px;
+        margin-left: -105px;
+
+    }
+
+    .womanMobile {
+        display: none;
+    }
+
+    .box {
+        position: fixed;
+        height: 240px;
+        width: 250px;
+        margin-top: 273px;
+        margin-left: -123px;
+    }
+}
