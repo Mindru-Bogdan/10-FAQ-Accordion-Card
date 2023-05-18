@@ -1,4 +1,4 @@
-/* @media all and (max-width: 1219px) {
+@media all and (max-width: 1299px) {
     .patternDesktop {
         display: none;
     }
@@ -26,9 +26,9 @@
     .box {
         display: none;
     }
-} */
+}
 
-@media all and (min-width: 1220px) {  
+@media all and (min-width: 1300px) {  
     .patternDesktop {
         position: absolute;
         height: 1250px;

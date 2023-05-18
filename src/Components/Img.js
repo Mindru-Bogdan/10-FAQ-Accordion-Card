@@ -10,9 +10,9 @@ const Img = () => {
   return (
     <div>
       <img className={classes.patternDesktop} src={PatternDesktop} />
-      {/* <img className={classes.patternMobile} src={PatternMobile} /> */}
+      <img className={classes.patternMobile} src={PatternMobile} />
       <img className={classes.womanDesktop} src={IllustrationWomanDesktop} />
-      {/* <img className={classes.womanMobile} src={IllustrationWomanMobile} /> */}
+      <img className={classes.womanMobile} src={IllustrationWomanMobile} />
       <img className={classes.box} src={IllustrationBox} />
     </div>
   );
